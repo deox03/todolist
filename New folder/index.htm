@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <div class="header"></div>
+    <div class="content">
+      <div class="title">To-Do List</div>
+      <div class="sort-icon" onclick="sortTasks()">
+        <img id="sort-icon" class="sort-icon-img" src="sortkicikbos.png" alt="sort icon" />
+      </div>
+
+      <ul class="todo-list" id="todo-list"></ul>
+
+      <div class="input-group" id="input-group" style="display: none;">
+        <input class="todo-input" type="text" id="todo-input" placeholder="Добавьте задачу...">
+        <button class="clear-btn" onclick="clearInput()">
+          <img class="x" src="image copy.png" alt="sil">
+        </button>
+      </div>
+
+      <div class="elave">
+        <button class="add-btn" onclick="toggleInput()">
+          <img src="image.png" alt="elave et">
+          Добавить
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

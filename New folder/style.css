@@ -41,6 +41,10 @@
     font-size: 20px;
     color: #999;
   }
+  .sort-icon img{
+    width: 25px;
+    height: 15px;
+  }
   
   .todo-list {
     list-style: none;
@@ -125,4 +129,34 @@
     justify-content: center;
     align-items: center;
   }
+  .clear-btn .x {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .clear-btn:hover .x {
+    content: url('image.png'); 
+  }
+  .delete-icon {
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .delete-btn:hover .delete-icon {
+    content: url('image.png');
+  }
+  .input-group .x-icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-group:hover .x-icon{
+    content: url('image.png');
+  }
+  
   
